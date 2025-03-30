@@ -1,22 +1,21 @@
-# Proyecto Tripleten
+# Música en la gran ciudad - Proyecto 02
 
-En este repositorio, estan los proyecto que desarrolle en el Bootcamp para Data Science en Tripleten.
+## Descripción del proyecto
 
-| Proyecto | Título | Habilidades |
-| ------------- | ------------- | ------------- |
-| [Proyecto 01](www.google.com) |  |
-| [Proyecto 02] | Preferencias musicales en 2 ciudades | Tipos de datos, Variables locales y globales, librería Pandas, Preprocesamiento de datos |
-| [Proyecto 03] | Plataforma de entregas de comestibles | Data Wrangling, Visualizacion de datos, Ingeniería de Características (Feature Enginnering) |
-| [Proyecto 04] | Análisis de planes teléfonicos | Data Wrangling, EDA, Visualización de datos, Prueba de Hipotesis | 
-| [Proyecto 05] |  |
-| [Proyecto 06] |  |
-| [Proyecto 07] |  |
-| [Proyecto 08] |  |
-| [Proyecto 09] |  |
-| [Proyecto 10] |  |
-| [Proyecto 11] |  |
-| [Proyecto 12] |  |
-| [Proyecto 13] |  |
-| [Proyecto 14] |  |
-| [Proyecto 15] |  | 
-| [Proyecto 16] |  |
+En el primer proyecto del curso, se solciita comparar las preferencias musicales de los usuarios en Springfield y Shelbyville. Este proyecto incluye instrucciones sobre la estructura, dirección y conclusiones proporcionadas por Tripleten.
+
+Los datos para este análisis son obtenidos de Y.Music con el fin de probar las hipótesis y comparar el comportamiento de los usuarios en ambas ciudades. El proyecto fue estructurado siguiendo las instrucciones proporcionadas por Tripleten.
+
+## Hipótesis
+
+- La actividad de los usuarios varía según el día y la ciudad en la que se encuentren.
+
+
+- En las mañanas de los lunes y las noches de los viernes, existen diferencias en las preferencias de géneros musicales entre los usuarios de Springfield y Shelbyville.
+
+
+- La música pop es más popular entre los usuarios de Springfield, mientras que el rap tiene una mayor base de seguidores entre los usuarios de Shelbyville.
+
+## Librería
+
+- Pandas
