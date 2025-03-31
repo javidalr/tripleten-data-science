@@ -60,9 +60,9 @@ Significado de las clasificaciones ESRB (según su sitio web):
 
 ## Hipótesis
 
-La calificación promedio de los usuarios para las plataformas Xbox One y PC es la misma.
+- La calificación promedio de los usuarios para las plataformas Xbox One y PC es la misma.
 
-Las calificaciones promedio de los usuarios para los géneros Acción y Deportes son diferentes.
+- Las calificaciones promedio de los usuarios para los géneros Acción y Deportes son diferentes.
 
 ## Librerías
 
