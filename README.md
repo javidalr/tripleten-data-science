@@ -1,43 +1,27 @@
-# Modelo de Machine Learning para planes de telecomunicaciones - Proyecto 08
+## Introducción
 
-## Descripción del Proyecto
+Este proyecto tiene como objetivo desarrollar un modelo de clasificación binaria para la operadora móvil Megaline, con el fin de recomendar uno de sus dos planes más nuevos: Smart o Ultra. El modelo se desarrollará analizando los datos de comportamiento de los suscriptores actuales.
 
-Este proyecto es una continuación de nuestro trabajo previo en el Proyecto 4: Análisis Estadístico de Datos. Aquí, seguimos colaborando con Megaline, un operador móvil, para abordar su preocupación sobre los clientes que continúan utilizando planes antiguos.
+## Objetivo
 
-La empresa desea desarrollar un modelo capaz de analizar el comportamiento del consumidor y proporcionar recomendaciones personalizadas para los dos nuevos planes de Megaline: Smart y Ultra.
+- Desarrollar un modelo de clasificación binaria que analice el comportamiento del usuario y recomiende el plan telefónico más adecuado.
 
-Los objetivos de este proyecto incluyen:
+- La precisión del modelo debe ser igual o superior al 75%, según lo solicitado por la empresa Megaline.
 
-Analizar los patrones de comportamiento de los clientes de Megaline que ya han cambiado al nuevo paquete.
+## Datos
 
-Desarrollar modelos de aprendizaje automático para estudiar el comportamiento de estos usuarios.
+Descripción de los datos
 
-Utilizar los modelos para proporcionar recomendaciones de paquetes adecuadas a los clientes que aún no han adoptado el nuevo plan.
+- calls: Número de llamadas
 
-## Descripción de los Datos
-Para construir este modelo, utilizaremos los datos preprocesados disponibles en el archivo users_behavior.csv.
+- minutes: Duración total de las llamadas en minutos
 
-Cada observación en el conjunto de datos proporciona información mensual sobre el comportamiento de un usuario, incluyendo las siguientes variables:
+- messages: Número de mensajes de texto
 
-calls: número de llamadas realizadas por el usuario
+- mb_used: Tráfico de internet utilizado en MB
 
-minutes: duración total de las llamadas en minutos
+- is_ultra: Plan contratado en el mes actual (Ultra = 1, Smart = 0)
 
-messages: número de mensajes de texto enviados por el usuario
+## Principales bibliotecas utilizadas
 
-mb_used: cantidad de tráfico de internet consumido en megabytes (MB)
-
-is_ultra: paquete suscrito por el usuario en el mes actual (Ultra = 1, Smart = 0)
-
-Etapas
-Habiendo realizado previamente un análisis estadístico de los datos de los clientes de Megaline en el Proyecto 4, ahora pasamos directamente a la etapa de modelado, asumiendo que el paso de preprocesamiento de datos ya está completado.
-
-El objetivo de esta tarea de clasificación es desarrollar un modelo que pueda recomendar con precisión el paquete adecuado para los clientes de Megaline que aún no han cambiado al nuevo plan.
-
-Nuestro objetivo es crear un modelo con la mayor precisión posible, con un mínimo de 0.75 de accuracy como umbral para este proyecto.
-
-## Librerías
-
-- Pandas
-- NumPy
-- Scikit-learn
+Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn
