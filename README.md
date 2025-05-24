@@ -46,4 +46,4 @@ Exited: Indica si el cliente abandonó el banco
 
 ## Principales bibliotecas utilizadas
 
-Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn, CatBoost, Imbalanced-Learn
+Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn
