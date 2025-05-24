@@ -1,53 +1,46 @@
-## Introducción
+# Análisis de Sentimientos en Reseñas de Películas
 
-La Film Junky Union, una nueva comunidad innovadora para entusiastas del cine clásico, está desarrollando un sistema para filtrar y categorizar reseñas de películas con el fin de detectar opiniones negativas.
+## Descripción del Proyecto
 
-## Objetivo
+**Film Junky Union**, una nueva comunidad para fanáticos del cine clásico, está desarrollando un sistema para filtrar y categorizar reseñas de películas. El objetivo es entrenar un modelo capaz de detectar automáticamente reseñas negativas. Nuestra tarea consiste en utilizar el conjunto de datos de reseñas de películas de **IMDB** con etiquetas de polaridad, y crear un modelo que clasifique con precisión las reseñas como positivas o negativas. La meta establecida para este modelo es alcanzar una puntuación **F1 de al menos 0.85**.
 
-- Construir un modelo para clasificar reseñas como positivas o negativas utilizando un conjunto de datos de reseñas de películas de IMDb etiquetadas por polaridad. El modelo debe alcanzar una puntuación F1 de al menos 0.85.
+## Descripción de los Datos
 
-## Datos
+Los datos están almacenados en el archivo `imdb_reviews.tsv`.
 
-Descripción de los datos
+Este conjunto de datos fue recopilado por Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng y Christopher Potts. (2011). *Learning Word Vectors for Sentiment Analysis*. The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011).
 
-tconst: Identificador único para cada película en la base de datos de IMDb.
+A continuación, se describen las columnas seleccionadas:
 
-title_type: Tipo o categoría del título (por ejemplo, película).
+- `review` — texto de la reseña  
+- `pos` — variable objetivo, '0' para negativo y '1' para positivo  
+- `ds_part` — 'train'/'test' indica si pertenece al conjunto de entrenamiento o prueba  
 
-primary_title: Título principal de la película.
+Estas tres columnas son el foco principal de esta tarea, aunque el conjunto de datos contiene otras columnas adicionales.
 
-original_title: Título original de la película (en su idioma original).
+## Etapas
 
-start_year: Año en que se estrenó o comenzó la película.
+Este proyecto se llevará a cabo en las siguientes etapas:
 
-end_year: Año en que finalizó la película (si aplica).
+1. Cargar y estudiar los datos.  
+2. Realizar un preprocesamiento inicial.  
+3. Realizar análisis exploratorio de datos (EDA) y tratar el desbalance de clases.  
+4. Preprocesar los datos para prepararlos para el modelado.  
+5. Entrenar al menos tres modelos utilizando el conjunto de entrenamiento.  
+6. Evaluar los modelos usando el conjunto de prueba.  
+7. Escribir reseñas adicionales y clasificarlas con todos los modelos.  
+8. Analizar y comparar los resultados de las pruebas de los modelos, explicando las diferencias observadas.
 
-runtime_minutes: Duración de la película en minutos.
+## Librerías
 
-is_adult: Indicador binario (1 o 0) que señala si la película está clasificada como “para adultos”.
-
-genres: Géneros asociados a la película.
-
-average_rating: Calificación promedio otorgada a la película.
-
-votes: Número de votos que ha recibido la película.
-
-rating: Calificación otorgada en la reseña.
-
-sp: Polaridad del sentimiento (positivo, neutral).
-
-ds_part: Parte del conjunto de datos (entrenamiento o prueba).
-
-idx: Identificador del punto de datos en el conjunto.
-
-## Características
-
-review: Texto de la reseña de la película.
-
-## Variable objetivo
-
-pos: Indicador binario (1 o 0) que señala la polaridad del sentimiento de la reseña.
-
-## Principales bibliotecas utilizadas
-
-Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn, LightGBM, Tensorflow, PyTorch, Optuna, NLTK, SpaCy, Transformers
+- Pandas versión: 1.4.4  
+- NumPy versión: 1.23.5  
+- Matplotlib versión: 3.7.1  
+- Seaborn versión: 0.12.2  
+- NLTK versión: 3.7  
+- Regex versión: 2.2.1  
+- spaCy versión: 3.3.1  
+- Scikit-learn versión: 1.2.2  
+- CatBoost versión: 1.1.1  
+- LightGBM versión: 3.3.5  
+- XGBoost versión: 1.7.3
