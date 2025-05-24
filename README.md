@@ -1,37 +1,64 @@
-## Introducción
+# Soluciones de Machine Learning para Seguros
 
-La compañía de seguros Sure Tomorrow desea resolver varias tareas relacionadas con los beneficios de seguro de sus clientes. Este proyecto tiene como objetivo abordar dichas tareas mediante modelos de machine learning y proteger la privacidad de los datos personales de los clientes.
+[Notebook del Proyecto](https://github.com/emanuelcaesario/practicum-projects/blob/Project-11-Linear-Algebra/Project%2011%20Linear%20Algebra.ipynb)
 
-## Objetivo
+## Resumen del Proyecto
 
-Resolver las siguientes tareas solicitadas por la compañía de seguros Sure Tomorrow:
+Este proyecto muestra aplicaciones prácticas del álgebra lineal, combinando su belleza matemática con tareas del mundo real. El objetivo principal es demostrar la **precisión del algoritmo**, más que seleccionar el mejor modelo. La plantilla del proyecto incluye código inicial y descripciones de tareas que no deben eliminarse, junto con dos apéndices con información útil.
 
-- Tarea 1: Encontrar clientes similares a uno dado. Esto ayudará a los agentes de la compañía en sus campañas de marketing.
+En este proyecto, una aseguradora llamada **"Sure Tomorrow"** busca soluciones de *machine learning* para diversas tareas:
 
-- Tarea 2: Predecir si un nuevo cliente probablemente recibirá un beneficio de seguro. ¿Puede un modelo de predicción superar a un modelo base (dummy)?
+- **Tarea 1: Perfilado de clientes** – Encontrar clientes similares según criterios específicos para marketing efectivo.  
+- **Tarea 2: Predicción de reclamos** – Determinar si nuevos clientes es probable que hagan reclamos al seguro, y comparar el modelo con un modelo dummy.  
+- **Tarea 3: Regresión** – Predecir la cantidad de reclamos de seguro que pueden recibir nuevos clientes utilizando regresión lineal.  
+- **Tarea 4: Protección de privacidad de datos** – Desarrollar algoritmos de transformación de datos para ocultar o enmascarar la información privada de los clientes, manteniendo la precisión del modelo. El objetivo es prevenir el uso indebido o acceso no autorizado a los datos personales sin comprometer el rendimiento del modelo.
 
-- Tarea 3: Predecir cuántos beneficios de seguro recibirá un nuevo cliente usando un modelo de regresión lineal.
+## Descripción de los Datos
 
-- Tarea 4: Proteger los datos personales de los clientes sin afectar el modelo de la tarea anterior. Es necesario desarrollar un algoritmo de transformación de datos que haga difícil recuperar información personal en caso de que los datos caigan en manos equivocadas. Esto se conoce como enmascaramiento de datos o ofuscación de datos. Sin embargo, los datos deben protegerse de manera que la calidad de los modelos de machine learning no se vea comprometida. No es necesario seleccionar el mejor modelo, solo demostrar que el algoritmo funciona correctamente.
+El conjunto de datos se encuentra en el archivo `insurance_us.csv`. A continuación se describen las variables:
 
-## Datos
+- **Características:**
+  - `Gender`: Género de la persona asegurada (por ejemplo, masculino o femenino).
+  - `Age`: Edad de la persona asegurada (valor numérico).
+  - `Income`: Ingreso de la persona asegurada (valor numérico).
+  - `Family Members`: Número de miembros de la familia cubiertos por el seguro.
 
-Descripción de los datos
+- **Variable objetivo:**
+  - `Insurance Benefits`: Monto de beneficios recibidos por el asegurado durante los últimos cinco años. Representa los reclamos recibidos de la compañía de seguros.
 
-- Características
+## Etapas
 
-Gender: Género de la persona asegurada
+El proyecto abarcará las siguientes etapas:
 
-Age: Edad de la persona asegurada
+1. **Carga e Inicialización de Datos:**
+   - Cargar el conjunto de datos desde el archivo `insurance_us.csv`.
+   - Explorar el conjunto de datos para comprender su estructura y contenido.
+   - Verificar valores faltantes, tipos de datos y estadísticas básicas.
 
-Salary: Ingreso anual de la persona asegurada
+2. **Análisis Exploratorio de Datos (EDA):**
+   - Analizar las relaciones entre las características y la variable objetivo (`insurance_benefits`).
+   - Identificar patrones o correlaciones mediante visualizaciones.
 
-Family members: Número de familiares de la persona asegurada
+3. **Tarea 1 - Clientes Similares:**
+   - Crear una función que muestre los *k-nearest neighbors* para el objeto n utilizando una métrica de distancia específica.
 
-- Variable objetivo
+4. **Tarea 2 - Predicción de Reclamos de Seguro:**
+   - Evaluar si el modelo de clasificación kNN supera al modelo dummy para predecir la aceptación de reclamos.
 
-Insurance benefits: Número de beneficios de seguro recibidos por la persona asegurada en los últimos cinco años
+5. **Tarea 3 - Regresión (con Regresión Lineal):**
+   - Utilizando `insurance_benefits` como variable objetivo, evaluar el **RMSE** (Root Mean Squared Error) del modelo de regresión lineal.
 
-## Principales bibliotecas utilizadas
+6. **Tarea 4 - Ofuscación de Datos:**
+   - Aplicar ofuscación multiplicando las características numéricas (matriz 𝑋) por una matriz invertible 𝑃.
+   - Demostrar la efectividad de la ofuscación con regresión lineal.
 
-Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn
+7. **Prueba de Regresión Lineal con Datos Ofuscados:**
+   - Evaluar el rendimiento y la precisión del modelo con datos ofuscados.
+
+## Librerías
+
+- Pandas versión: 1.4.4  
+- NumPy versión: 1.23.5  
+- Matplotlib versión: 3.7.1  
+- Seaborn versión: 0.12.2  
+- Scikit-learn versión: 1.2.2
