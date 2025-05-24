@@ -1,49 +1,51 @@
-## Introducción
+# Predicción de Cancelación de Clientes Bancarios
 
-Los clientes de Beta Bank están abandonando el banco poco a poco cada mes. Los ejecutivos del banco han identificado que es más rentable retener a los clientes actuales que atraer nuevos. Este proyecto tiene como objetivo construir un modelo para predecir si un cliente dejará el banco próximamente.
+## Resumen del Proyecto
 
-## Objetivo
+**Bank Beta** ha experimentado una disminución en el número de clientes con el tiempo, lo que resalta la importancia de **retener a los clientes actuales** en lugar de enfocarse únicamente en captar nuevos. Para enfrentar este desafío, el banco busca modelos de predicción precisos que le permitan anticipar el comportamiento de sus clientes y mitigar la cancelación de contratos de manera proactiva. Al identificar a los clientes con mayor probabilidad de abandonar el banco, se pueden tomar medidas estratégicas para retenerlos.
 
-- Desarrollar un modelo de clasificación binaria que analice los datos sobre el comportamiento pasado de los clientes y la finalización de contratos, con el fin de identificar a los clientes que probablemente se irán.
+Nuestro objetivo es predecir la probabilidad de cancelación de clientes en el sector bancario. Utilizando datos históricos sobre el comportamiento de los clientes y finalizaciones de contratos, desarrollaremos un modelo que determine con precisión si un cliente es propenso a abandonar el banco en el corto plazo.
 
-- El modelo debe alcanzar una puntuación F1 de al menos 59%, según lo solicitado por Beta Bank.
+El objetivo principal es alcanzar una **puntuación F1 de al menos 0.59** en el conjunto de prueba. Además, evaluaremos el rendimiento del modelo utilizando la métrica **AUC-ROC** y la compararemos con las puntuaciones F1 para obtener información adicional.
 
-## Datos
+## Descripción de los Datos
 
-Descripción de los datos
+Para el entrenamiento del modelo, utilizaremos el conjunto de datos almacenado en el archivo `Churn.csv`, que contiene las siguientes características y variable objetivo:
 
-- Características
+**Características:**
+- `RowNumber`: Índice de la fila de datos  
+- `CustomerId`: ID del cliente  
+- `Surname`: Apellido  
+- `CreditScore`: Puntuación crediticia  
+- `Geography`: País de residencia  
+- `Gender`: Género  
+- `Age`: Edad  
+- `Tenure`: Tiempo de permanencia del depósito a plazo (en años)  
+- `Balance`: Saldo de la cuenta  
+- `NumOfProducts`: Número de productos bancarios utilizados  
+- `HasCrCard`: Si el cliente tiene tarjeta de crédito  
+- `IsActiveMember`: Nivel de actividad del cliente  
+- `EstimatedSalary`: Salario estimado  
 
-RowNumber: Índice de la fila en el conjunto de datos
+**Variable Objetivo:**
+- `Exited`: Indica si el cliente ha abandonado el banco  
 
-CustomerId: Identificador único del cliente
+## Etapas
 
-Surname: Apellido
+El proyecto se desarrollará en las siguientes etapas:
 
-CreditScore: Puntuación crediticia
+1. **Preprocesamiento de datos**: Descargar y preparar los datos para el análisis.  
+2. **Revisión del balance de clases**: Evaluar la distribución de las clases existentes.  
+3. **Entrenamiento del modelo sin considerar el desbalance**: Entrenar un modelo inicial y analizar los resultados obtenidos.  
+4. **Mejorar el rendimiento abordando el desbalance de clases**: Implementar técnicas para corregir el desbalance.  
+5. **Selección de parámetros con el conjunto de entrenamiento**: Ajustar los parámetros del modelo.  
+6. **Entrenamiento y evaluación de distintos modelos** en los conjuntos de entrenamiento y validación.  
+7. **Identificación de los mejores modelos**: Seleccionar los de mayor rendimiento.  
+8. **Pruebas finales**: Evaluar la efectividad de los modelos seleccionados.
 
-Geography: País de residencia
+## Librerías
 
-Gender: Género
-
-Age: Edad
-
-Tenure: Tiempo de permanencia del depósito a plazo fijo (años)
-
-Balance: Saldo de la cuenta
-
-NumOfProducts: Número de productos bancarios utilizados por el cliente
-
-HasCrCard: Indica si el cliente tiene tarjeta de crédito
-
-IsActiveMember: Nivel de actividad del cliente
-
-EstimatedSalary: Salario estimado
-
-- Variable objetivo
-
-Exited: Indica si el cliente abandonó el banco
-
-## Principales bibliotecas utilizadas
-
-Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn
+- Pandas versión: 1.4.4  
+- NumPy versión: 1.23.5  
+- Matplotlib versión: 3.7.1  
+- Scikit-learn versión: 1.2.2
