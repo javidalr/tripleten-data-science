@@ -1,22 +1,17 @@
-# Proyecto Tripleten
+## Introducción
 
-En este repositorio, estan los proyecto que desarrolle en el Bootcamp para Data Science en Tripleten.
+La empresa de taxis Sweet Lift ha recopilado datos históricos sobre pedidos de taxi en aeropuertos. Para atraer a más conductores durante las horas punta, es necesario predecir la cantidad de pedidos de taxi para la próxima hora.
 
-| Proyecto | Título | Habilidades |
-| ------------- | ------------- | ------------- |
-| [Proyecto 01](www.google.com) |  |
-| [Proyecto 02] | Preferencias musicales en 2 ciudades | Tipos de datos, Variables locales y globales, librería Pandas, Preprocesamiento de datos |
-| [Proyecto 03] | Plataforma de entregas de comestibles | Data Wrangling, Visualizacion de datos, Ingeniería de Características (Feature Enginnering) |
-| [Proyecto 04] | Análisis de planes teléfonicos | Data Wrangling, EDA, Visualización de datos, Prueba de Hipotesis | 
-| [Proyecto 05] |  |
-| [Proyecto 06] |  |
-| [Proyecto 07] |  |
-| [Proyecto 08] |  |
-| [Proyecto 09] |  |
-| [Proyecto 10] |  |
-| [Proyecto 11] |  |
-| [Proyecto 12] |  |
-| [Proyecto 13] |  |
-| [Proyecto 14] |  |
-| [Proyecto 15] |  | 
-| [Proyecto 16] |  |
+## Objetivo
+
+- Desarrollar un modelo de regresión para predecir los pedidos de taxi por hora.
+
+- Según lo solicitado por la empresa Sweet Lift Taxi, la métrica RMSE en el conjunto de prueba no debe superar los 48 pedidos por hora.
+
+## Datos
+
+El conjunto de datos contiene el número de pedidos de taxi cada 10 minutos.
+
+## Principales bibliotecas utilizadas
+
+Pandas, Numpy, Matplotlib, Seaborn, Scikit-Learn, XGBoost, CatBoost, LightGBM
