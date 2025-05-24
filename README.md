@@ -14,3 +14,5 @@ El conjunto de datos contiene imágenes faciales de 7.591 personas de diversas e
 ## Principales bibliotecas utilizadas
 
 Pandas, Numpy, Matplotlib, Seaborn, Tensorflow, Keras
+
+## El proyecto no se pudo finalizar debido a problemas técnicos
