@@ -1,4 +1,5 @@
 ## Introducción
+
 La compañia de telecomunicaciones, Interconnect, desea identificar a los clientes que podrían estar pensando en cancelar el servicio. Si detectan que un cliente planea irse, le ofrecerán códigos promocionales y planes especiales. El equipo de marketing de Interconnect ha recopilado algunos datos personales de sus clientes, incluyendo información sobre sus planes y contratos.
 
 ## Objetivo
