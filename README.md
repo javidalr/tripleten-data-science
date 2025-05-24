@@ -22,4 +22,4 @@ Bibliotecas principales: Pandas, Numpy, Scipy, Matplotlib, Seaborn, Plotly, Requ
 | [Proyecto 14](https://github.com/javidalr/tripleten-data-science/tree/project-14) | Análisis de sentimientos en reseñas de películas | EDA, modelo de clasificación, NLP, despliegue de modelos |
 | [Proyecto 15](https://github.com/javidalr/tripleten-data-science/tree/project-15) | Detector de edad por fotografía | Visualización de datos, modelo de regresión, visión por computador |
 | Proyecto 16 | Aprendizaje no supervizado | Sin proyecto, buscando proyecto... |
-| [Proyecto 17](https://github.com/javidalr/tripleten-data-science/tree/project-16-final) | Predicción Fuga de Clientes, Empresa de Telecomunicaciones | ETL, EDA, Machine Learning |
+| [Proyecto 17](https://github.com/javidalr/tripleten-data-science/tree/project-17-final) | Predicción Fuga de Clientes, Empresa de Telecomunicaciones | ETL, EDA, Machine Learning |
