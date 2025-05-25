@@ -1,4 +1,4 @@
-# Instacar: Plataforma de entregas - Proyecto 03
+# Instacar: Plataforma de entregas
 
 ## Descripción del proyecto
 
@@ -49,9 +49,13 @@ Cada fila corresponde a un artículo pedido en un pedido.
 
 ## Hipótesis
 
+Se asignaron a evaluacion las sihguientes hipótesis:
 
+- Dias y horarios de más compras
+- Frecuencia de pedidos
+- Categorías y productos más populares
+- Demanda de productos
 
 ## Librerías
 - Pandas
 - Matplotlib
-  
