@@ -2,9 +2,9 @@
 
 ## Resumen del Proyecto
 
-**OilyGiant**, una empresa de extracción de petróleo, busca expandir su exploración a nuevas ubicaciones. Nuestra tarea es encontrar una ubicación adecuada para perforar un nuevo pozo petrolero. Para lograrlo, desarrollaremos un modelo de *machine learning* que ayude a identificar la ubicación óptima para futuras exploraciones.
+**OilyGiant**, una empresa de extracción de petróleo, busca expandir su exploración a nuevas ubicaciones. El proyecto consiste en encontrar una ubicación adecuada para perforar un nuevo pozo petrolero. Para lograrlo, se desarrollará un modelo de *machine learning* que ayude a identificar la ubicación óptima para futuras exploraciones.
 
-Se nos ha proporcionado información de muestras de petróleo de tres regiones, incluyendo parámetros de cada pozo en esas zonas. El objetivo es construir un modelo que ayude a la empresa a seleccionar la región con el mayor margen de beneficio. Para ello, realizaremos un análisis de ganancias y riesgos potenciales utilizando técnicas de *bootstrapping*.
+Fue proporcionada información de muestras de petróleo de tres regiones, incluyendo parámetros de cada pozo en esas zonas. El objetivo es construir un modelo que ayude a la empresa a seleccionar la región con el mayor margen de beneficio. Para ello, se aplicará un análisis de ganancias y riesgos potenciales utilizando técnicas de *bootstrapping*.
 
 Los pasos a seguir para seleccionar la nueva ubicación son los siguientes:
 
@@ -48,8 +48,8 @@ Este proyecto se llevará a cabo en varias fases:
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- NumPy versión: 1.23.5  
-- Matplotlib versión: 3.7.1  
-- Seaborn versión: 0.12.2  
-- Scikit-learn versión: 1.2.2
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn
