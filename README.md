@@ -2,9 +2,9 @@
 
 ## Resumen del Proyecto
 
-Este proyecto es el primer proyecto integrado del curso de Practicum, y abarca diversas habilidades enseñadas durante la primera parte del programa, incluyendo Python básico, preprocesamiento de datos, análisis exploratorio y análisis estadístico.
+Este es un proyecto integrado del curso de Tripleten, y abarca diversas habilidades enseñadas durante la primera parte del programa, incluyendo Python básico, preprocesamiento de datos, análisis exploratorio y análisis estadístico.
 
-Como analistas de datos de la tienda en línea **"Ice"**, especializada en la venta de videojuegos a nivel mundial, se nos proporcionaron datos de fuentes abiertas que incluyen reseñas de expertos y usuarios, géneros, plataformas de los juegos e información histórica de ventas. Nuestro principal objetivo fue identificar patrones que contribuyen al éxito de un videojuego para así detectar títulos con alto potencial y planificar campañas publicitarias efectivas.
+La tienda en línea **"Ice"**, especializada en la venta de videojuegos a nivel mundial, proporcionó datos de fuentes abiertas que incluyen reseñas de expertos y usuarios, géneros, plataformas de los juegos e información histórica de ventas. El principal objetivo es identificar patrones que contribuyen al éxito de un videojuego para así detectar títulos con alto potencial y planificar campañas publicitarias efectivas.
 
 El conjunto de datos se enfoca en el año **2016**, y asumimos que estamos en diciembre de ese año, por lo que el análisis busca preparar una estrategia de campaña para **2017**.
 
@@ -20,7 +20,7 @@ Es importante señalar que este conjunto de datos contiene abreviaturas como **E
 
 ## Descripción de los Datos
 
-Analizaremos los datos almacenados en el archivo `games.csv`. Aunque tenemos información preliminar, es necesario evaluar la calidad de los datos.
+Se analizaran los datos almacenados en el archivo `games.csv`. Aunque se tiene información preliminar, es necesario evaluar la calidad de los datos.
 
 **Descripción de las columnas:**
 
@@ -49,7 +49,7 @@ Analizaremos los datos almacenados en el archivo `games.csv`. Aunque tenemos inf
 
 ## Hipótesis
 
-Se nos asignaron dos hipótesis para analizar:
+Se asignaron dos hipótesis para analizar:
 
 - La calificación promedio de los usuarios para las plataformas Xbox One y PC es la misma.  
 - Las calificaciones promedio de los usuarios para los géneros Acción y Deportes son diferentes.
@@ -68,8 +68,8 @@ Estas etapas permitirán llevar a cabo un análisis completo del conjunto de dat
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- NumPy versión: 1.23.5  
-- Matplotlib versión: 3.7.1  
-- Seaborn versión: 0.12.2  
-- SciPy versión: 1.10.1
+- Pandas  
+- NumPy
+- Matplotlib  
+- Seaborn  
+- SciPy
