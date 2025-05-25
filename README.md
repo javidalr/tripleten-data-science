@@ -12,7 +12,7 @@ Este proyecto fue desarrollado en la plataforma de **TripleTen**, utilizando sus
 
 El objetivo de este proyecto es construir y evaluar un modelo que pueda verificar con precisión la edad de una persona basándose en las fotografías capturadas por las cámaras en la zona de cajas. Con ello, **Good Seed** busca garantizar el cumplimiento de las normativas legales, evitar ventas a menores de edad y respetar los requisitos legales.
 
-Nuestra tarea consiste en construir y entrenar una red neuronal convolucional en una plataforma con GPU, utilizando un conjunto de datos con fotografías humanas. El objetivo es lograr una puntuación **MAE** menor o igual a **8** en el conjunto de prueba.
+EL proyecto consiste en construir y entrenar una red neuronal convolucional en una plataforma con GPU, utilizando un conjunto de datos con fotografías humanas. El objetivo es lograr una puntuación **MAE** menor o igual a **8** en el conjunto de prueba.
 
 ## Descripción de los Datos
 
@@ -42,4 +42,4 @@ Este proyecto se desarrollará en las siguientes etapas:
 - Seaborn
 - TensorFlow
 
-## Este proyecto no se logro concluir por problemas técnicos
+## Este proyecto no se logro concluir por problemas técnicos de GPU
