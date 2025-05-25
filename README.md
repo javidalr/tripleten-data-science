@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-**Film Junky Union**, una nueva comunidad para fanáticos del cine clásico, está desarrollando un sistema para filtrar y categorizar reseñas de películas. El objetivo es entrenar un modelo capaz de detectar automáticamente reseñas negativas. Nuestra tarea consiste en utilizar el conjunto de datos de reseñas de películas de **IMDB** con etiquetas de polaridad, y crear un modelo que clasifique con precisión las reseñas como positivas o negativas. La meta establecida para este modelo es alcanzar una puntuación **F1 de al menos 0.85**.
+**Film Junky Union**, una nueva comunidad para fanáticos del cine clásico, está desarrollando un sistema para filtrar y categorizar reseñas de películas. El objetivo es entrenar un modelo capaz de detectar automáticamente reseñas negativas. El proyecto consiste en utilizar el conjunto de datos de reseñas de películas de **IMDB** con etiquetas de polaridad, y crear un modelo que clasifique con precisión las reseñas como positivas o negativas. La meta establecida para este modelo es alcanzar una puntuación **F1 de al menos 0.85**.
 
 ## Descripción de los Datos
 
