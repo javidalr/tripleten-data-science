@@ -1,8 +1,8 @@
 # Música en la Gran Ciudad
 
-En el primer proyecto del curso, se me asignó la tarea de comparar las preferencias musicales de los usuarios en **Springfield** y **Shelbyville**. Este proyecto incluye instrucciones sobre estructura, dirección y conclusiones proporcionadas por **Practicum**.
+En este proyecto esta la tarea de comparar las preferencias musicales de los usuarios en **Springfield** y **Shelbyville**. Este proyecto incluye instrucciones sobre estructura, dirección y conclusiones proporcionadas por **Tripleten**.
 
-Los datos para este análisis fueron obtenidos de **Y.Music** con el objetivo de probar hipótesis y comparar el comportamiento de los usuarios en ambas ciudades. El proyecto fue estructurado siguiendo las indicaciones brindadas por Practicum.
+Los datos para este análisis fueron obtenidos de **Y.Music** con el objetivo de probar hipótesis y comparar el comportamiento de los usuarios en ambas ciudades. El proyecto fue estructurado siguiendo las indicaciones brindadas por Tripleten.
 
 # Hipótesis
 
