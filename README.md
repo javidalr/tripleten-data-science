@@ -2,7 +2,7 @@
 
 ## Resumen del Proyecto
 
-Este proyecto es una continuación de nuestro trabajo previo en el **Proyecto 4: Análisis Estadístico de Datos**. En esta ocasión, seguimos colaborando con **Megaline**, una operadora móvil que desea abordar el problema de clientes que continúan utilizando paquetes antiguos.
+Este proyecto, es una continuación del trabajo revio en el **Proyecto 4: Análisis Estadístico de Datos**. En esta ocasión, se sigue colaborando con **Megaline**, una operadora móvil que desea abordar el problema de clientes que continúan utilizando paquetes antiguos.
 
 La empresa busca desarrollar un modelo capaz de analizar el comportamiento de los usuarios y ofrecer recomendaciones personalizadas entre los dos nuevos paquetes de Megaline: **Smart** y **Ultra**.
 
@@ -14,7 +14,7 @@ Los objetivos de este proyecto incluyen:
 
 ## Descripción de los Datos
 
-Para construir este modelo, utilizaremos los datos ya preprocesados contenidos en el archivo `users_behavior.csv`.
+Para construir este modelo, se utilizaran los datos ya preprocesados contenidos en el archivo `users_behavior.csv`.
 
 Cada observación en el conjunto de datos representa información mensual sobre el comportamiento de un usuario individual, incluyendo las siguientes variables:
 
@@ -26,14 +26,14 @@ Cada observación en el conjunto de datos representa información mensual sobre 
 
 ## Etapas
 
-Habiendo realizado previamente el análisis estadístico en el Proyecto 4, ahora pasamos directamente a la etapa de modelado, asumiendo que el preprocesamiento ya ha sido completado.
+El análisis estadístico se realizó en el Proyecto 4, por ello, se aplicará directamente la etapa de modelado, asumiendo que el preprocesamiento ya esta realizado.
 
-El objetivo de esta tarea de clasificación es desarrollar un modelo que pueda recomendar con precisión el plan adecuado para los clientes de Megaline que aún no han cambiado a uno de los paquetes más recientes.
+El objetivo de esta tarea de clasificación, es desarrollar un modelo que pueda recomendar con precisión el plan adecuado para los clientes de Megaline que aún no han cambiado a uno de los paquetes más recientes.
 
 La meta es lograr **la mayor precisión posible**, con un umbral mínimo de **0.75 de accuracy** para este proyecto.
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- NumPy versión: 1.23.5  
-- Scikit-learn versión: 1.2.2
+- Pandas  
+- NumPy
+- Scikit-learn
