@@ -33,14 +33,14 @@ Este proyecto se llevará a cabo en las siguientes etapas:
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- NumPy versión: 1.23.5  
-- Matplotlib versión: 3.7.1  
-- Seaborn versión: 0.12.2  
-- NLTK versión: 3.7  
-- Regex versión: 2.2.1  
-- spaCy versión: 3.3.1  
-- Scikit-learn versión: 1.2.2  
-- CatBoost versión: 1.1.1  
-- LightGBM versión: 3.3.5  
-- XGBoost versión: 1.7.3
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- NLTK
+- Regex
+- spaCy
+- Scikit-learn
+- CatBoost
+- LightGBM
+- XGBoost
