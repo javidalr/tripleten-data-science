@@ -2,15 +2,15 @@
 
 ## Resumen del Proyecto
 
-En este proyecto realizamos un análisis de planes de prepago para determinar su potencial de ingresos en distintos mercados objetivo. Además, llevamos a cabo pruebas de hipótesis utilizando métodos de análisis estadístico.
+En este proyecto se realizará un análisis de planes de prepago para determinar su potencial de ingresos en distintos mercados objetivo. Además, de llevar a cabo pruebas de hipótesis utilizando métodos de análisis estadístico.
 
 **Megaline**, una operadora de telecomunicaciones, ofrece dos planes de prepago: **Surf** y **Ultimate**. El departamento de marketing busca optimizar el presupuesto publicitario identificando cuál de estos planes genera mayores ingresos.
 
-En este análisis examinaremos una muestra de 500 clientes de Megaline y exploraremos su comportamiento: identidad, ciudad de origen, tipo de plan y estadísticas de uso (llamadas y mensajes enviados en 2018). El objetivo es determinar cuál plan prepago genera más ingresos para Megaline.
+En este análisis se examinará una muestra de 500 clientes de Megaline y exploraremos su comportamiento: identidad, ciudad de origen, tipo de plan y estadísticas de uso (llamadas y mensajes enviados en 2018). El objetivo es determinar cuál plan prepago genera más ingresos para Megaline.
 
 ## Descripción de los Datos
 
-Hemos recibido cinco archivos de datos, cada uno con información diferente. A continuación, se describe el contenido de cada uno:
+Se han recibido cinco archivos de datos, cada uno con información diferente. A continuación, se describe el contenido de cada uno:
 
 **megaline_users (datos de usuarios):**
 - `user_id`: ID del usuario  
@@ -51,7 +51,7 @@ Hemos recibido cinco archivos de datos, cada uno con información diferente. A c
 
 ## Hipótesis
 
-Se nos asignó evaluar las siguientes hipótesis:
+Se asignaron evaluación las siguientes hipótesis:
 
 - La media de ingresos de los usuarios de los planes **Ultimate** y **Surf** es diferente.  
 - El ingreso promedio de los usuarios del área NY-NJ es diferente al de los usuarios de otras regiones.
@@ -66,12 +66,12 @@ Este proyecto se divide en tres fases:
 
 3. **Pruebas de Hipótesis**: Evaluación de las hipótesis planteadas mediante pruebas estadísticas. Se definirán hipótesis nula y alternativa, se elegirá la prueba adecuada, se calculará el estadístico y se interpretarán los resultados para tomar decisiones fundamentadas.
 
-Al completar estas etapas, obtendremos una visión clara del comportamiento de los clientes y el rendimiento de los planes prepago en diferentes mercados.
+Al completar estas etapas, se obtendrá una visión clara del comportamiento de los clientes y el rendimiento de los planes prepago en diferentes mercados.
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- NumPy versión: 1.23.5  
-- Matplotlib versión: 3.7.1  
-- Seaborn versión: 0.12.2  
-- SciPy versión: 1.10.1
+- Pandas
+- NumPy  
+- Matplotlib  
+- Seaborn
+- SciPy
