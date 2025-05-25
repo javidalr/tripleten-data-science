@@ -1,21 +1,25 @@
-# Música en la gran ciudad - Proyecto 02
+# Música en la Gran Ciudad
 
-## Descripción del proyecto
+En el primer proyecto del curso, se me asignó la tarea de comparar las preferencias musicales de los usuarios en **Springfield** y **Shelbyville**. Este proyecto incluye instrucciones sobre estructura, dirección y conclusiones proporcionadas por **Practicum**.
 
-En el primer proyecto del curso, se solciita comparar las preferencias musicales de los usuarios en Springfield y Shelbyville. Este proyecto incluye instrucciones sobre la estructura, dirección y conclusiones proporcionadas por Tripleten.
+Los datos para este análisis fueron obtenidos de **Y.Music** con el objetivo de probar hipótesis y comparar el comportamiento de los usuarios en ambas ciudades. El proyecto fue estructurado siguiendo las indicaciones brindadas por Practicum.
 
-Los datos para este análisis son obtenidos de Y.Music con el fin de probar las hipótesis y comparar el comportamiento de los usuarios en ambas ciudades. El proyecto fue estructurado siguiendo las instrucciones proporcionadas por Tripleten.
+# Hipótesis
 
-## Hipótesis
+- La actividad de los usuarios varía según el día y la ciudad en la que se encuentran.  
+- Los lunes por la mañana y los viernes por la noche, existen diferencias en las preferencias de géneros musicales entre usuarios de Springfield y Shelbyville.  
+- La música pop es más popular entre los usuarios de Springfield, mientras que el rap tiene una mayor base de seguidores en Shelbyville.
 
-- La actividad de los usuarios varía según el día y la ciudad en la que se encuentren.
+# Descripción de los Datos
 
+- `userID`: ID del usuario  
+- `Track`: Título de la canción  
+- `artist`: Nombre del artista  
+- `genre`: Género musical  
+- `City`: Ciudad donde se encuentra el usuario  
+- `time`: Duración de reproducción de la canción  
+- `Day`: Día de la semana  
 
-- En las mañanas de los lunes y las noches de los viernes, existen diferencias en las preferencias de géneros musicales entre los usuarios de Springfield y Shelbyville.
-
-
-- La música pop es más popular entre los usuarios de Springfield, mientras que el rap tiene una mayor base de seguidores entre los usuarios de Shelbyville.
-
-## Librería
+# Librería
 
 - Pandas
