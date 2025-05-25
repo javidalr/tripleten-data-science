@@ -1,12 +1,12 @@
-# Proyecto Final: Predicción de la Tasa de Cancelación de Clientes de Telco
+# Proyecto Final: Predicción de la Tasa de Cancelación de Clientes de Telecomunicaciones
 
 ## Estructura del Proyecto
 
-Este proyecto final forma parte de un curso de ciencia de datos en Practicum, donde aplicamos todo lo que hemos aprendido durante el bootcamp en una simulación del mundo real. A diferencia de proyectos anteriores, este proyecto final simula situaciones laborales reales en empresas. Participamos en simulaciones de roles, con el equipo de tutores interpretando los roles de nuestros compañeros:
+Este proyecto final forma parte de un curso de ciencia de datos en Tripleten, donde se aplica todo lo aprendido durante el bootcamp en una simulación del mundo real. A diferencia de proyectos anteriores, este proyecto final simula una circunstancia laboral real en una empresa. Participar en simulación de roles, con un equipo de tutores interpretando los roles de compañeros:
 
 - El Tutor 1 actúa como líder del equipo, asignando tareas y asegurando su correcta finalización.
 - El Tutor 2 cumple el rol de colega senior, respondiendo preguntas comunes sobre machine learning y ofreciendo ayuda cuando sea necesario.
-- Los revisores de código evalúan nuestro código.
+- Los revisores de código evalúan el código.
 
 **Detalles de la Tarea:**
 
@@ -111,13 +111,13 @@ Este proyecto se llevará a cabo en cuatro fases:
 
 ## Librerías
 
-- Pandas versión: 1.4.4
-- NumPy versión: 1.23.5
-- Matplotlib versión: 3.7.1
-- Seaborn versión: 0.12.2
-- RegEx versión: 2.2.1
-- Scikit-learn versión: 1.2.2
-- SciPy versión: 1.10.1
-- LightGBM versión: 3.3.5
-- XGBoost versión: 1.7.3
-- CatBoost versión: 1.1.1
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- RegEx
+- Scikit-learn
+- SciPy
+- LightGBM
+- XGBoost
+- CatBoost
