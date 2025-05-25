@@ -2,9 +2,9 @@
 
 ## Resumen del Proyecto
 
-Nuestra tarea consiste en ayudar a **Rusty Bargain**, una empresa dedicada a la compra y venta de autos usados, con el desarrollo de una app para atraer nuevos compradores. La app permitirá a los usuarios que deseen vender su auto conocer rápidamente su valor de mercado.
+El proyecto consiste en ayudar a **Rusty Bargain**, una empresa dedicada a la compra y venta de autos usados, con el desarrollo de una app para atraer nuevos compradores. La app permitirá a los usuarios que deseen vender su auto conocer rápidamente su valor de mercado.
 
-Para lograrlo, contamos con acceso a datos históricos, especificaciones técnicas de diversos vehículos, diferentes versiones de modelos y sus precios correspondientes. Nuestro objetivo principal es crear un modelo que prediga con precisión el valor de mercado de estos autos.
+Para lograrlo, se obtuvo acceso a datos históricos, especificaciones técnicas de diversos vehículos, diferentes versiones de modelos y sus precios correspondientes. Nuestro objetivo principal es crear un modelo que prediga con precisión el valor de mercado de estos autos.
 
 Factores clave de interés para Rusty Bargain incluyen:
 - la calidad de la predicción  
@@ -51,8 +51,8 @@ El proyecto se desarrollará en las siguientes etapas:
    - Eliminar duplicados y completar valores faltantes con 'unknown'.
 
 3. **Preprocesamiento de Datos**  
-   - Preparar dos conjuntos de datos: `df` y `df_new` para diferentes enfoques de modelado.  
-   - Codificar variables categóricas mediante One-Hot Encoding en el conjunto `df`.  
+   - Preparar dos conjuntos de datos: `data` y `data_new` para diferentes enfoques de modelado.  
+   - Codificar variables categóricas mediante One-Hot Encoding en el conjunto `data`.  
    - Escalar características numéricas para estandarizarlas.
 
 4. **Selección y Entrenamiento de Modelos**  
@@ -76,11 +76,11 @@ El proyecto se desarrollará en las siguientes etapas:
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- NumPy versión: 1.23.5  
-- Matplotlib versión: 3.7.1  
-- Seaborn versión: 0.12.2  
-- Scikit-learn versión: 1.2.2  
-- CatBoost versión: 1.1.1  
-- LightGBM versión: 3.3.5  
-- XGBoost versión: 1.7.3
+- Pandas
+- NumPy  
+- Matplotlib
+- Seaborn  
+- Scikit-learn  
+- CatBoost  
+- LightGBM  
+- XGBoost
