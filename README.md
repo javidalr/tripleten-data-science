@@ -10,19 +10,25 @@ Con la base de datos proporcionados, se estudian datos de la competencia y se re
 
 ## Descripción de los datos
 
-### project_sql_result_01.csv: Este conjunto de datos contiene información sobre la cantidad de viajes por compañía. Incluye las siguientes columnas:
+### project_sql_result_01.csv
+
+Este conjunto de datos contiene información sobre la cantidad de viajes por compañía. Incluye las siguientes columnas:
 
 company_name: Nombre de la compañía de taxis.
 
 trips_amount: Número total de viajes realizados por cada compañía de taxis durante el 15 y 16 de noviembre de 2017.
 
-### project_sql_result_04.csv: Este conjunto de datos contiene información sobre el número promedio de viajes que terminan en diferentes zonas de Chicago. Incluye:
+### project_sql_result_04.csv
+
+Este conjunto de datos contiene información sobre el número promedio de viajes que terminan en diferentes zonas de Chicago. Incluye:
 
 dropoff_location_name: Nombre del área de Chicago donde finalizó el viaje.
 
 average_trips: Número promedio de viajes que terminaron en cada zona durante noviembre de 2017.
 
-### project_sql_result_07.csv: Este conjunto de datos contiene información sobre viajes desde The Loop hacia el Aeropuerto Internacional O'Hare. Incluye:
+### project_sql_result_07.csv
+
+Este conjunto de datos contiene información sobre viajes desde The Loop hacia el Aeropuerto Internacional O'Hare. Incluye:
 
 start_ts: Fecha y hora de recogida.
 
