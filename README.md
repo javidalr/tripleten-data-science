@@ -1,73 +1,75 @@
-# Análisis de Videojuegos - Proyecto 06
+# Análisis de Videojuegos
 
-## Descripción del proyecto
+## Resumen del Proyecto
 
-Primer proyecto integrado de Tripleten, abarca varias habilidades enseñadas durante la primera parte del plan de estudios, incluyendo Python básico, preprocesamiento de datos, análisis exploratorio de datos y análisis estadístico de datos.
+Este proyecto es el primer proyecto integrado del curso de Practicum, y abarca diversas habilidades enseñadas durante la primera parte del programa, incluyendo Python básico, preprocesamiento de datos, análisis exploratorio y análisis estadístico.
 
-La tienda en línea "Ice", especializada en la venta de videojuegos a nivel mundial, proporcionaron los datos provenientes de fuentes abiertas. Estos datos incluyen reseñas de expertos y usuarios, géneros, plataformas de juegos e información histórica de ventas. Nuestro objetivo principal es identificar patrones que contribuyen al éxito de un videojuego, permitiéndonos detectar juegos con alto potencial y planificar campañas publicitarias efectivas.
+Como analistas de datos de la tienda en línea **"Ice"**, especializada en la venta de videojuegos a nivel mundial, se nos proporcionaron datos de fuentes abiertas que incluyen reseñas de expertos y usuarios, géneros, plataformas de los juegos e información histórica de ventas. Nuestro principal objetivo fue identificar patrones que contribuyen al éxito de un videojuego para así detectar títulos con alto potencial y planificar campañas publicitarias efectivas.
 
-El conjunto de datos corresponde al año 2016, y asumimos un escenario donde actualmente es diciembre de 2016, y se nos ha encargado planificar una campaña para el año siguiente, 2017.
+El conjunto de datos se enfoca en el año **2016**, y asumimos que estamos en diciembre de ese año, por lo que el análisis busca preparar una estrategia de campaña para **2017**.
 
-Es importante destacar que este conjunto de datos contiene abreviaciones, entre ellas ESRB, que corresponde a Entertainment Software Rating Board. La ESRB es una organización reguladora independiente encargada de evaluar el contenido de los juegos y asignar calificaciones por edad como Teen o Mature.
+Es importante señalar que este conjunto de datos contiene abreviaturas como **ESRB**, que corresponde a la *Entertainment Software Rating Board*, una organización reguladora que clasifica los videojuegos por edad (como Teen o Mature).
 
-## Descripción de los datos
+### Objetivos del proyecto:
 
-Analizaremos los datos almacenados en el archivo games.csv. Aunque tenemos información preliminar sobre los datos, es necesario evaluar su calidad.
+1. Analizar patrones que contribuyen al éxito o fracaso de un videojuego.  
+2. Proporcionar recomendaciones sobre juegos con potencial para campañas de publicidad en 2017.  
+3. Probar dos hipótesis:
+   - Si las calificaciones promedio de los usuarios para Xbox One y PC son iguales.
+   - Si las calificaciones promedio de los usuarios para los géneros Acción y Deportes son diferentes.
 
-A continuación se describen las variables del conjunto de datos:
+## Descripción de los Datos
 
-Name: Nombre del videojuego
+Analizaremos los datos almacenados en el archivo `games.csv`. Aunque tenemos información preliminar, es necesario evaluar la calidad de los datos.
 
-Platform: Plataforma(s) en las que está disponible el juego
+**Descripción de las columnas:**
 
-Year_of_Release: Año de lanzamiento del juego
+- `Name`: Nombre del videojuego  
+- `Platform`: Plataforma(s) en las que está disponible  
+- `Year_of_Release`: Año de lanzamiento  
+- `Genre`: Género o categoría  
+- `NA_sales`: Ventas en Norteamérica (millones USD)  
+- `EU_sales`: Ventas en Europa (millones USD)  
+- `JP_sales`: Ventas en Japón (millones USD)  
+- `Other_sales`: Ventas en otros países (millones USD)  
+- `Critic_Score`: Puntuación de los críticos (máx. 100)  
+- `User_Score`: Puntuación de los usuarios (máx. 10)  
+- `Rating`: Clasificación ESRB asignada  
 
-Genre: Género o categoría del juego
+**Significado de las clasificaciones ESRB:**
 
-NA_sales: Ventas en América del Norte, en millones de USD
-
-EU_sales: Ventas en Europa, en millones de USD
-
-JP_sales: Ventas en Japón, en millones de USD
-
-Other_sales: Ventas en otros países, en millones de USD
-
-Critic_Score: Calificación dada por los críticos, con un máximo de 100
-
-User_Score: Calificación dada por los usuarios, con un máximo de 10
-
-Rating: Clasificación asignada por la ESRB
-
-Estas variables proporcionan información importante sobre los juegos, incluyendo su desempeño en ventas, evaluaciones por parte de críticos y usuarios, y clasificaciones por edad.
-
-Significado de las clasificaciones ESRB (según su sitio web):
-
-- E (Everyone): Contenido apto para todas las edades
-
-- T (Teen): Contenido apto para mayores de 13 años
-
-- M (Mature): Contenido apto para mayores de 17 años
-
-- E10+ (Everyone 10 and older): Contenido apto para mayores de 10 años
-
-- K-A (Kids to Adults): Contenido apto para todas las edades (clasificación usada antes de 1999, reemplazada por "E")
-
-- AO (Adults Only): Contenido solo apto para mayores de 18 años
-
-- EC (Early Childhood): Contenido apto para niños mayores de 3 años
-
-- RP (Rating Pending): Clasificación aún no asignada por la ESRB
+- **E** (*Everyone*): Contenido apto para todas las edades  
+- **T** (*Teen*): Apto para mayores de 13 años  
+- **M** (*Mature*): Apto para mayores de 17 años  
+- **E10+** (*Everyone 10 and older*): Apto para mayores de 10 años  
+- **K-A** (*Kids to Adults*): Apto para todas las edades (usado antes de 1999)  
+- **AO** (*Adults Only*): Solo para mayores de 18 años  
+- **EC** (*Early Childhood*): Apto para niños de 3 años en adelante  
+- **RP** (*Rating Pending*): Clasificación pendiente por ESRB
 
 ## Hipótesis
 
-- La calificación promedio de los usuarios para las plataformas Xbox One y PC es la misma.
+Se nos asignaron dos hipótesis para analizar:
 
+- La calificación promedio de los usuarios para las plataformas Xbox One y PC es la misma.  
 - Las calificaciones promedio de los usuarios para los géneros Acción y Deportes son diferentes.
+
+## Etapas
+
+El análisis se desarrollará en las siguientes fases:
+
+1. **Descripción Inicial de los Datos**: Vista general del conjunto de datos y estadísticas básicas.  
+2. **Preprocesamiento de Datos**: Mejora de la calidad de los datos, incluyendo lectura, validación, renombrado de columnas, manejo de valores nulos, ajuste de tipos de datos y creación de columnas relevantes.  
+3. **Análisis Exploratorio de Datos**: Búsqueda de patrones y análisis de desempeño en ventas. Se presentarán recomendaciones basadas en estos hallazgos.  
+4. **Análisis Estadístico de Datos**: Ejecución de pruebas estadísticas para validar las hipótesis planteadas.  
+5. **Conclusiones**: Resumen de los resultados obtenidos y conclusiones generales del proyecto.
+
+Estas etapas permitirán llevar a cabo un análisis completo del conjunto de datos y extraer conclusiones útiles sobre el desempeño de ventas de videojuegos.
 
 ## Librerías
 
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- SciPy
+- Pandas versión: 1.4.4  
+- NumPy versión: 1.23.5  
+- Matplotlib versión: 3.7.1  
+- Seaborn versión: 0.12.2  
+- SciPy versión: 1.10.1
