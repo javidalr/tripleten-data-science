@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-Trabajamos para una empresa de taxis llamada **Sweet Lift**, que ha recopilado datos históricos sobre pedidos de taxi en el aeropuerto. Nuestra tarea consiste en predecir el número de pedidos de taxi para la próxima hora, con el objetivo de atraer más conductores durante las horas punta. La meta es construir un modelo predictivo cuya métrica **RMSE** en el conjunto de prueba **no supere los 48**.
+Esta proyecto es para una empresa de taxis llamada **Sweet Lift**, que ha recopilado datos históricos sobre pedidos de taxi en el aeropuerto. El proyecto consiste en predecir el número de pedidos de taxi para la próxima hora, con el objetivo de atraer más conductores durante las horas punta. La meta es construir un modelo predictivo cuya métrica **RMSE** en el conjunto de prueba **no supere los 48**.
 
 Este proyecto tiene como objetivos:
 - Aplicar habilidades de procesamiento de series temporales en un proyecto del mundo real.
@@ -28,15 +28,14 @@ Este proyecto se desarrollará en las siguientes etapas:
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- NumPy versión: 1.23.5  
-- Matplotlib versión: 3.7.1  
-- Seaborn versión: 0.12.2  
-- Scikit-learn versión: 1.2.2  
-- CatBoost versión: 1.1.1  
-- LightGBM versión: 3.3.5  
-- XGBoost versión: 1.7.3  
-- Statsmodels versión: 0.13.5  
-- Scipy versión: 1.10.1  
-- Pmdarima versión: 1.8.5  
-- Prophet versión: 1.0
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- CatBoost
+- LightGBM
+- XGBoost
+- Statsmodels
+- Scipy  
+- Arima
