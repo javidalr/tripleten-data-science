@@ -1,7 +1,5 @@
 # Soluciones de Machine Learning para Seguros
 
-[Notebook del Proyecto](https://github.com/emanuelcaesario/practicum-projects/blob/Project-11-Linear-Algebra/Project%2011%20Linear%20Algebra.ipynb)
-
 ## Resumen del Proyecto
 
 Este proyecto muestra aplicaciones prácticas del álgebra lineal, combinando su belleza matemática con tareas del mundo real. El objetivo principal es demostrar la **precisión del algoritmo**, más que seleccionar el mejor modelo. La plantilla del proyecto incluye código inicial y descripciones de tareas que no deben eliminarse, junto con dos apéndices con información útil.
@@ -57,8 +55,8 @@ El proyecto abarcará las siguientes etapas:
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- NumPy versión: 1.23.5  
-- Matplotlib versión: 3.7.1  
-- Seaborn versión: 0.12.2  
-- Scikit-learn versión: 1.2.2
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
