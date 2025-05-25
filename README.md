@@ -4,13 +4,13 @@
 
 **Bank Beta** ha experimentado una disminución en el número de clientes con el tiempo, lo que resalta la importancia de **retener a los clientes actuales** en lugar de enfocarse únicamente en captar nuevos. Para enfrentar este desafío, el banco busca modelos de predicción precisos que le permitan anticipar el comportamiento de sus clientes y mitigar la cancelación de contratos de manera proactiva. Al identificar a los clientes con mayor probabilidad de abandonar el banco, se pueden tomar medidas estratégicas para retenerlos.
 
-Nuestro objetivo es predecir la probabilidad de cancelación de clientes en el sector bancario. Utilizando datos históricos sobre el comportamiento de los clientes y finalizaciones de contratos, desarrollaremos un modelo que determine con precisión si un cliente es propenso a abandonar el banco en el corto plazo.
+EL objetivo es predecir la probabilidad de cancelación de clientes en el sector bancario. Utilizando datos históricos sobre el comportamiento de los clientes y finalizaciones de contratos, se desarrollará un modelo que determine con precisión si un cliente es propenso a abandonar el banco en el corto plazo.
 
-El objetivo principal es alcanzar una **puntuación F1 de al menos 0.59** en el conjunto de prueba. Además, evaluaremos el rendimiento del modelo utilizando la métrica **AUC-ROC** y la compararemos con las puntuaciones F1 para obtener información adicional.
+El objetivo principal es alcanzar una **puntuación F1 de al menos 0.59** en el conjunto de prueba. Además, se evaluará el rendimiento del modelo utilizando la métrica **AUC-ROC** y la compararemos con las puntuaciones F1 para obtener información adicional.
 
 ## Descripción de los Datos
 
-Para el entrenamiento del modelo, utilizaremos el conjunto de datos almacenado en el archivo `Churn.csv`, que contiene las siguientes características y variable objetivo:
+Para el entrenamiento del modelo, se utilizará el conjunto de datos almacenado en el archivo `Churn.csv`, que contiene las siguientes características y variable objetivo:
 
 **Características:**
 - `RowNumber`: Índice de la fila de datos  
@@ -45,7 +45,8 @@ El proyecto se desarrollará en las siguientes etapas:
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- NumPy versión: 1.23.5  
-- Matplotlib versión: 3.7.1  
-- Scikit-learn versión: 1.2.2
+- Pandas  
+- NumPy
+- Regex
+- Matplotlib  
+- Scikit-learn
