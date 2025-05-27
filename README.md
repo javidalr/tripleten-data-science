@@ -40,7 +40,7 @@ Siguiendo estas etapas, busco demostrar mi dominio del análisis exploratorio de
 
 ## Librerías
 
-- Pandas versión: 1.4.4  
-- Seaborn versión: 0.12.2  
-- Matplotlib versión: 3.7.1
+- Pandas
+- Matplotlib
+- Seaborn
 - Streamlit
