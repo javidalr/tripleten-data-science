@@ -22,9 +22,9 @@ st.header("1 Información Preliminar")
 st.subheader("1.1 Carga y Exploración de Datos")
 if 'data' not in st.session_state:
     try: 
-        if os.path_exists('vehicles_us.csv'):
+        if os.path.exists('vehicles_us.csv'):
             path = 'vehicles_us.csv'
-        elif os.path_exists('datatsets/vehicles_us.csv'):
+        elif os.path.exists('datatsets/vehicles_us.csv'):
             path = 'datasets/vehicles_us.csv'
         else:
             st.error('El archivo no se encontro en la carpeta actual ni en "datasets/".')
