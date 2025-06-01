@@ -40,9 +40,10 @@ Presentación de conclusiones generales del análisis, junto con recomendaciones
 ## Librerías
 
 - Pandas  
+- Os
 - Plotly
 - Streamlit
 
 Por ultimo, se adjunta link de la aplicación en Render.
 
-Link de proyecto en Render: https://project-sprint-5-6tyt.onrender.com
+Link de proyecto en Render: https://tripleten-data-science.onrender.com/
