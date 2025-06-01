@@ -10,7 +10,7 @@ Bibliotecas principales: Pandas, Numpy, Scipy, Matplotlib, Seaborn, Plotly, Requ
 | [Proyecto 02](https://github.com/javidalr/tripleten-data-science/tree/Project-02-Data-Preprocessing) | Preferencias musicales en 2 ciudades | Tipos de datos, Variables locales y globales, librería Pandas, Preprocesamiento de datos |
 | [Proyecto 03](https://github.com/javidalr/tripleten-data-science/tree/Project-03-Exploratory-Data-Analysis3) | Plataforma de entregas de comestibles | Data Wrangling, Visualizacion de datos, Ingeniería de Características (Feature Enginnering) |
 | [Proyecto 04](https://github.com/javidalr/tripleten-data-science/tree/Project-04-Statistical-Data-Analysis) | Análisis de planes teléfonicos | Data Wrangling, EDA, Visualización de datos, Prueba de Hipotesis | 
-| [Proyecto 05](https://github.com/javidalr/tripleten-data-science/tree/Project-05-Software-Development-Tools) | Análisis de ventas de vehículos | ETL, EDA, Streamlit |
+| [Proyecto 05](https://github.com/javidalr/tripleten-data-science/tree/Project-05-Software-Development-Tools) | Análisis de ventas de vehículos | ETL, EDA, Streamlit, Render |
 | [Proyecto 06](https://github.com/javidalr/tripleten-data-science/tree/Project-06-Integrated-Project) | Análisis de videojuegos | ETL, EDA, Prueba de Hipótesis |
 | [Proyecto 07](https://github.com/javidalr/tripleten-data-science/tree/Project-07-Data-Collection-and-Storage) | Análisis de compañia de taxis | Web Scraping, SQL, ETL, EDA, Prueba de Hipótesis |
 | [Proyecto 08](https://github.com/javidalr/tripleten-data-science/tree/Project-08-Introduction-to-Machine-Learning) | Desarrollo de un modelo de clasificación de planes telefónicos para un operador móvil | Visualización de datos, modelo de clasificación |
