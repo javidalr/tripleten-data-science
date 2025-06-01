@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import pandas as pd
 import warnings
 import plotly.graph_objects as go
@@ -20,7 +21,18 @@ st.header("1 Información Preliminar")
 
 st.subheader("1.1 Carga y Exploración de Datos")
 if 'data' not in st.session_state:
-    st.session_state.data = pd.read_csv('vehicles_us.csv')
+    try: 
+        if os.path_exists('vehicles_us.csv'):
+            path = 'vehicles_us.csv'
+        elif os.path_exists('datatsets/vehicles_us.csv'):
+            path = 'datasets/vehicles_us.csv'
+        else:
+            st.error('El archivo no se encontro en la carpeta actual ni en "datasets/".')
+            st.stop()
+        st.session_state.data = pd.read_csv(path)
+    except Exception as e:
+        st.error(f'Ocurrio un error al leer el archivo: {e}')
+        st.stop()
 data = st.session_state.data
 
 st.subheader('1.2 Muestra del conjunto de datos')
