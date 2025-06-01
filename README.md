@@ -8,7 +8,7 @@ Bibliotecas principales: Pandas, Numpy, Scipy, Matplotlib, Seaborn, Plotly, Requ
 | ------------- | ------------- | ------------- |
 | [Proyecto 01](https://github.com/javidalr/tripleten-data-science/tree/Project-01-Basic-Python) | Ejercicios iniciales de Python Básico | Variables, Strings, Tipos de datos, f-strings, Try-Except, Listas anidadas, Bucles anidados |
 | [Proyecto 02](https://github.com/javidalr/tripleten-data-science/tree/Project-02-Data-Preprocessing) | Preferencias musicales en 2 ciudades | Tipos de datos, Variables locales y globales, librería Pandas, Preprocesamiento de datos |
-| [Proyecto 03](https://github.com/javidalr/tripleten-data-science/tree/Project-03-Exploratory-Data-Analysis3) | Plataforma de entregas de comestibles | Data Wrangling, Visualizacion de datos, Ingeniería de Características (Feature Enginnering) |
+| [Proyecto 03](https://github.com/javidalr/tripleten-data-science/tree/Project-03-Exploratory-Data-Analysis) | Plataforma de entregas de comestibles | Data Wrangling, Visualizacion de datos, Ingeniería de Características (Feature Enginnering) |
 | [Proyecto 04](https://github.com/javidalr/tripleten-data-science/tree/Project-04-Statistical-Data-Analysis) | Análisis de planes teléfonicos | Data Wrangling, EDA, Visualización de datos, Prueba de Hipotesis | 
 | [Proyecto 05](https://github.com/javidalr/tripleten-data-science/tree/Project-05-Software-Development-Tools) | Análisis de ventas de vehículos | ETL, EDA, Streamlit, Render |
 | [Proyecto 06](https://github.com/javidalr/tripleten-data-science/tree/Project-06-Integrated-Project) | Análisis de videojuegos | ETL, EDA, Prueba de Hipótesis |
