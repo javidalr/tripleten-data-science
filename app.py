@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -21,8 +22,21 @@ En esta presentación se analizara el conjunto de datos de Crankshaft List, el c
 st.header("1 Información Preliminar")
 
 st.subheader("1.1 Carga y Exploración de Datos")
+path = 'vehicles_us.csv'
 if 'data' not in st.session_state:
-    st.session_state.data = pd.read_csv('vehicles_us.csv')
+    try:
+        if os.path.exists('vehicles.csv'):
+            path = 'vehicles_us.csv'
+        elif os.path.exists(f'datasets/vehicles.csv'):
+            path = 'datasets/vehicles_us.csv'
+        else:
+            st.error("El archivo no se encontró ni en el directorio actual ni en 'datasets/'.")
+            st.stop()
+        st.session_state.data = pd.read_csv('vehicles.csv')
+        st.write('El archivo ha sido cargado exitosamente')
+    except Exception as e:
+        st.error(f"Ocurrió un error al leer el archivo: {e}")
+        st.stop()
 data = st.session_state.data
 
 st.subheader('1.2 Muestra del conjunto de datos')
