@@ -1,0 +1,7 @@
+# Archivos y directorios (ignorados) para el proyecto
+
+# Ambiente virtual
+.venv
+
+# Configuracion IDE
+.vscode
