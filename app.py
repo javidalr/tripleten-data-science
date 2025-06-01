@@ -30,6 +30,7 @@ if 'data' not in st.session_state:
             st.error('El archivo no se encontro en la carpeta actual ni en "datasets/".')
             st.stop()
         st.session_state.data = pd.read_csv(path)
+        st.write('La carga del srchivo se ha realizado exitosamente')
     except Exception as e:
         st.error(f'Ocurrio un error al leer el archivo: {e}')
         st.stop()
